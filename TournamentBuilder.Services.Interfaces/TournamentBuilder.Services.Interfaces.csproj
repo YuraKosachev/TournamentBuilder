@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TournamentBuilder.Services.Interfaces</RootNamespace>
     <AssemblyName>TournamentBuilder.Services.Interfaces</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,8 +41,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPlayerService.cs" />
     <Compile Include="IService.cs" />
+    <Compile Include="ITeamService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TournamentBuilder.Domain.Core\TournamentBuilder.Domain.Core.csproj">
+      <Project>{5848ef7d-6bac-4492-a4ed-656b1ea36647}</Project>
+      <Name>TournamentBuilder.Domain.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TournamentBuilder.Domain.Exceptions\TournamentBuilder.Domain.Exceptions.csproj">
+      <Project>{98cfa3dc-0ff9-4468-9d80-2d4b0dc71c8d}</Project>
+      <Name>TournamentBuilder.Domain.Exceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TournamentBuilder.Domain.Extensions\TournamentBuilder.Domain.Extensions.csproj">
+      <Project>{b4e3bc3c-86fe-48d3-8f2f-b1f51b10a367}</Project>
+      <Name>TournamentBuilder.Domain.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TournamentBuilder.Domain.Interfaces\TournamentBuilder.Domain.Interfaces.csproj">
+      <Project>{d3fb611c-a7ac-4bc2-b0a4-98f1522bc558}</Project>
+      <Name>TournamentBuilder.Domain.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

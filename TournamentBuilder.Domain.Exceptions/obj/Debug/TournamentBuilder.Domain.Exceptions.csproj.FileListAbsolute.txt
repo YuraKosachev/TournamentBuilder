@@ -1,0 +1,6 @@
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Exceptions\bin\Debug\TournamentBuilder.Domain.Exceptions.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Exceptions\bin\Debug\TournamentBuilder.Domain.Exceptions.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Exceptions\obj\Debug\TournamentBuilder.Domain.Exceptions.csprojResolveAssemblyReference.cache
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Exceptions\obj\Debug\TournamentBuilder.Domain.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Exceptions\obj\Debug\TournamentBuilder.Domain.Exceptions.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Exceptions\obj\Debug\TournamentBuilder.Domain.Exceptions.pdb

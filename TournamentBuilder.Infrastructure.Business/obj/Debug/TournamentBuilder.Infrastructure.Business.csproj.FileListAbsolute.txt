@@ -1,0 +1,11 @@
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Infrastructure.Business.dll.config
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Infrastructure.Business.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Infrastructure.Business.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.xml
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.csproj.CoreCompileInputs.cache
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.csprojResolveAssemblyReference.cache

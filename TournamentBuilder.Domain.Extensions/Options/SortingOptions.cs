@@ -10,16 +10,16 @@ namespace TournamentBuilder.Domain.Extensions.Options
     public class SortingOptions
     {
         public string Property { get; set; }
-        public bool Ascending { get; set; }
+        public string Ascending { get; set; }
+
         public SortingOptions(string property,bool ascending)
         {
             Property = property;
-            Ascending = ascending;
+            Ascending = ascending ? "ASC" : "DESC";
         }
         public IQueryable<TEntity> Sort<TEntity>(IQueryable<TEntity> source)
         {
-            return source.OrderBy<TEntity>(String.Format("{0} {1}", Property, Ascending ? "ASC" : "DESC"));
+            return source.OrderBy<TEntity>($"{Property} {Ascending}");
         }
-
     }
 }

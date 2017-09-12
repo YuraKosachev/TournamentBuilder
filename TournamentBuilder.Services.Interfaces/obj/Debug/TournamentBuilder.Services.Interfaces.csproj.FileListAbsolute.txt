@@ -1,0 +1,5 @@
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Services.Interfaces.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Services.Interfaces.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\obj\Debug\TournamentBuilder.Services.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\obj\Debug\TournamentBuilder.Services.Interfaces.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\obj\Debug\TournamentBuilder.Services.Interfaces.pdb

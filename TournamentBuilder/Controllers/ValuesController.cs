@@ -7,6 +7,15 @@ using System.Web.Http;
 
 namespace TournamentBuilder.Controllers
 {
+    public class SecondeModel
+    {
+        public string Name { get; set; }
+    }
+    public class Model
+    {
+        public Guid Id { get; set; }
+        public SecondeModel Seconde { get; set; }
+    }
     public class ValuesController : ApiController
     {
         // GET api/values
@@ -16,9 +25,16 @@ namespace TournamentBuilder.Controllers
         }
 
         // GET api/values/5
-        public string Get(int id)
+        public IHttpActionResult Get(int id)
         {
-            return "value";
+            var model = new Model
+            {
+                Id = Guid.NewGuid(),
+                Seconde = new SecondeModel {
+                    Name = "SomeName"
+                }
+            };
+            return Ok(model);
         }
 
         // POST api/values

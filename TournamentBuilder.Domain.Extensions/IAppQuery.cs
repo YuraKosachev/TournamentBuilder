@@ -11,5 +11,6 @@ namespace TournamentBuilder.Domain.Extensions
         IAppQuery<TModel> Sort(string property, bool ascending);
         IAppQuery<TModel> AndAlsoFilter(Expression<Func<TModel, bool>> predicate);
         IAppQuery<TModel> OrAlsoFilter(Expression<Func<TModel, bool>> predicate);
+        int CountItem();
     }
 }

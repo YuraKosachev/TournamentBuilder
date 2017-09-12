@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentBuilder.Services.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentBuilder.Domain.Extensions", "TournamentBuilder.Domain.Extensions\TournamentBuilder.Domain.Extensions.csproj", "{B4E3BC3C-86FE-48D3-8F2F-B1F51B10A367}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentBuilder.Domain.Exceptions", "TournamentBuilder.Domain.Exceptions\TournamentBuilder.Domain.Exceptions.csproj", "{98CFA3DC-0FF9-4468-9D80-2D4B0DC71C8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{B4E3BC3C-86FE-48D3-8F2F-B1F51B10A367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E3BC3C-86FE-48D3-8F2F-B1F51B10A367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E3BC3C-86FE-48D3-8F2F-B1F51B10A367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CFA3DC-0FF9-4468-9D80-2D4B0DC71C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CFA3DC-0FF9-4468-9D80-2D4B0DC71C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CFA3DC-0FF9-4468-9D80-2D4B0DC71C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CFA3DC-0FF9-4468-9D80-2D4B0DC71C8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{CF252477-6E75-4817-8984-E494BEB6C5FD} = {75A59450-AA22-40CD-87A5-C8CE933AA36A}
 		{E1A754C5-E3C8-4B9D-872C-74CEC4DC852D} = {4BFCBC57-2DC9-46D0-A64E-9798EBD55B30}
 		{B4E3BC3C-86FE-48D3-8F2F-B1F51B10A367} = {D58BA74D-BDDD-4D38-A87E-F41DC6777BAD}
+		{98CFA3DC-0FF9-4468-9D80-2D4B0DC71C8D} = {D58BA74D-BDDD-4D38-A87E-F41DC6777BAD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BB62DD6-FCB4-4575-B1B2-435EA0F6BE16}

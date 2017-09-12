@@ -9,3 +9,26 @@ C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\Tournam
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.pdb
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.csprojResolveAssemblyReference.cache
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Infrastructure.Business.dll.config
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Infrastructure.Business.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Infrastructure.Business.pdb
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Core.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Exceptions.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Extensions.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Interfaces.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Infrastructure.Data.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Services.Interfaces.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\System.Linq.Dynamic.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Core.pdb
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Exceptions.pdb
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Extensions.pdb
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Interfaces.pdb
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Infrastructure.Data.pdb
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Services.Interfaces.pdb
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.xml
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.csprojResolveAssemblyReference.cache
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.dll
+E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.pdb

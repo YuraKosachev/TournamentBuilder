@@ -20,7 +20,11 @@ namespace TournamentBuilder.Domain.Extensions
         {
             _context = context;
         }
-
+        public IAppQuery<TEntity> Filter(Expression<Func<TEntity, bool>> predicate)
+        {
+            _filtering = new FilteringOptions<TEntity>(predicate);
+            return this;
+        }
         public IAppQuery<TEntity> AndAlsoFilter(Expression<Func<TEntity, bool>> predicate)
         {
             if (_filtering == null)

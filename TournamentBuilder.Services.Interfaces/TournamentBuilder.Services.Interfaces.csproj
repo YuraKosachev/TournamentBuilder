@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="IPlayerService.cs" />
     <Compile Include="IService.cs" />
+    <Compile Include="IServiceFactory.cs" />
     <Compile Include="ITeamService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

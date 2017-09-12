@@ -4,19 +4,43 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using TournamentBuilder.Domain.Core;
 using TournamentBuilder.Services.Interfaces;
 using TournamentBuilder.Infrastructure.Business;
+using TournamentBuilder.Models;
 
 namespace TournamentBuilder.Controllers
 {
-    public class PlayerController : ApiController
+    public class PlayerController : BaseController
     {
-        private IPlayerService _playerService;
-        public PlayerController(IPlayerService playerService)
+
+        public PlayerController() : base() { }
+
+        [HttpGet]
+        [Route("api/players/{property:string}/{asc:bool}/{current:int}/{size:int}")]
+        public IHttpActionResult Get(string property,bool asc,int current,int size)
         {
-            _playerService = playerService;
+            try
+            {
+                var list = Factory.PlayerService.OptionsList();
+                //list.Filter(item => item.);
+                list.Sort(property,asc).TakePage(current, size);
+                //list.ToList();
+
+
+                return Ok(new ListViewModel<Player> {
+                    List = list.ToList(),
+                    CountItem = list.CountItem()
+                });
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+
         }
-        public PlayerController() : this(new PlayerService()) { }
+        
+        
 
         // GET: api/players
         [HttpGet]

@@ -16,7 +16,6 @@ namespace TournamentBuilder.Services.Interfaces
         TModel Item(TModel model);
         TModel Update(TModel model);
         TModel Delete(TModel model);
-        int Save();
 
     }
 }

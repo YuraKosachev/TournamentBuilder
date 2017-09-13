@@ -8,6 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 
 
+
 namespace TournamentBuilder.Domain.Core
 {
     public class Team:IModel

@@ -1,6 +1,5 @@
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Services.Interfaces.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Services.Interfaces.pdb
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\obj\Debug\TournamentBuilder.Services.Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\obj\Debug\TournamentBuilder.Services.Interfaces.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\obj\Debug\TournamentBuilder.Services.Interfaces.pdb
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Services.Interfaces.dll
@@ -17,3 +16,13 @@ E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\obj\Debug\TournamentBuilder.Services.Interfaces.csprojResolveAssemblyReference.cache
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\obj\Debug\TournamentBuilder.Services.Interfaces.dll
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\obj\Debug\TournamentBuilder.Services.Interfaces.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Domain.Core.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Domain.Exceptions.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Domain.Extensions.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Domain.Interfaces.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Domain.Core.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Domain.Exceptions.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Domain.Extensions.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\bin\Debug\TournamentBuilder.Domain.Interfaces.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Services.Interfaces\obj\Debug\TournamentBuilder.Services.Interfaces.csprojResolveAssemblyReference.cache

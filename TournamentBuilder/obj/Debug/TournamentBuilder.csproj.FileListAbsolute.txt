@@ -1,16 +1,4 @@
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\ApplicationInsights.config
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\csc.exe
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\vbc.exe
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\VBCSCompiler.exe
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.dll.config
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.pdb
@@ -55,7 +43,6 @@ C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\Tournam
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\System.Web.WebPages.Razor.xml
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\Antlr3.Runtime.pdb
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\obj\Debug\TournamentBuilder.csprojResolveAssemblyReference.cache
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\obj\Debug\TournamentBuilder.csproj.CoreCompileInputs.cache
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\obj\Debug\TournamentBuilder.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\obj\Debug\TournamentBuilder.pdb
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\EntityFramework.dll
@@ -140,3 +127,24 @@ E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\Tourn
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\obj\Debug\TournamentBuilder.csprojResolveAssemblyReference.cache
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\obj\Debug\TournamentBuilder.dll
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\obj\Debug\TournamentBuilder.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Domain.Core.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Domain.Exceptions.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Domain.Extensions.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Domain.Interfaces.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Infrastructure.Business.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Services.Interfaces.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\System.Linq.Dynamic.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Infrastructure.Data.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Domain.Core.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Domain.Exceptions.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Domain.Extensions.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Domain.Interfaces.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Infrastructure.Business.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Services.Interfaces.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\TournamentBuilder.Infrastructure.Data.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\AutoMapper.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder\bin\AutoMapper.xml

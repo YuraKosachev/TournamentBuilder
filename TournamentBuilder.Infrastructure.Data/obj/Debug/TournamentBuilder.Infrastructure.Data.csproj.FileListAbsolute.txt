@@ -8,14 +8,11 @@ C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\Tournam
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\EntityFramework.xml
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.csprojResolveAssemblyReference.cache
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.csproj.CoreCompileInputs.cache
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.pdb
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\TournamentBuilder.Domain.Extensions.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\System.Linq.Dynamic.dll
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\TournamentBuilder.Domain.Interfaces.dll.config
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\TournamentBuilder.Domain.Extensions.pdb
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\TournamentBuilder.Domain.Extensions.dll.config
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\TournamentBuilder.Domain.Core.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\TournamentBuilder.Domain.Exceptions.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\TournamentBuilder.Domain.Core.pdb
@@ -39,3 +36,5 @@ E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastru
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.csprojResolveAssemblyReference.cache
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.dll
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.initial.resources
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.csproj.GenerateResource.Cache

@@ -5,7 +5,6 @@ C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\Tournam
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.xml
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.csproj.CoreCompileInputs.cache
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.pdb
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.csprojResolveAssemblyReference.cache
@@ -32,3 +31,16 @@ E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastru
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.csprojResolveAssemblyReference.cache
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.dll
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\obj\Debug\TournamentBuilder.Infrastructure.Business.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Core.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Exceptions.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Extensions.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Interfaces.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Infrastructure.Data.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Services.Interfaces.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Core.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Exceptions.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Extensions.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Domain.Interfaces.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Infrastructure.Data.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Business\bin\Debug\TournamentBuilder.Services.Interfaces.pdb

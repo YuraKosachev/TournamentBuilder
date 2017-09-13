@@ -1,11 +1,15 @@
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\bin\Debug\TournamentBuilder.Domain.Core.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\bin\Debug\TournamentBuilder.Domain.Core.pdb
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\obj\Debug\TournamentBuilder.Domain.Core.csproj.CoreCompileInputs.cache
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\obj\Debug\TournamentBuilder.Domain.Core.dll
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\obj\Debug\TournamentBuilder.Domain.Core.pdb
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\obj\Debug\TournamentBuilder.Domain.Core.csprojResolveAssemblyReference.cache
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\bin\Debug\TournamentBuilder.Domain.Core.dll
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\bin\Debug\TournamentBuilder.Domain.Core.pdb
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\obj\Debug\TournamentBuilder.Domain.Core.csprojResolveAssemblyReference.cache
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\obj\Debug\TournamentBuilder.Domain.Core.dll
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\obj\Debug\TournamentBuilder.Domain.Core.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\bin\Debug\TournamentBuilder.Domain.Core.dll.config
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\bin\Debug\EntityFramework.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\bin\Debug\EntityFramework.xml
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Core\obj\Debug\TournamentBuilder.Domain.Core.csprojResolveAssemblyReference.cache

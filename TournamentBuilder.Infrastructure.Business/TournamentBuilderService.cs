@@ -56,11 +56,5 @@ namespace TournamentBuilder.Infrastructure.Business
         }
 
        
-        //public IProviderFactory Providers { get; private set; }
-        //public TournamentBuilderService(IProviderFactory providers)
-        //{
-        //    Providers = providers;
-        //}
-        //public TournamentBuilderService() : this(new ProviderFactory()) { }
     }
 }

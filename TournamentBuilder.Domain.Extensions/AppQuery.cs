@@ -37,6 +37,10 @@ namespace TournamentBuilder.Domain.Extensions
 
         public int CountItem()
         {
+            
+            if (_paging == null)
+                return this.Count();
+
             return _paging.Total;
         }
 

@@ -8,7 +8,7 @@ using TournamentBuilder.Domain.Core;
 
 namespace TournamentBuilder.Domain.Interfaces
 {
-    public interface ITeamProvider:IRepository<Team>
+    public interface ITeamProvider:IRepository<Team>,ILookup
     {
     }
 }

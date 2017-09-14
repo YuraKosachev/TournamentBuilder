@@ -18,5 +18,10 @@ namespace TournamentBuilder.Infrastructure.Business
     public class TeamService : TournamentBuilderService<Team, TeamProvider>, ITeamService
     {
         public TeamService() : base() { }
+
+        public IDictionary<Guid, string> GetDictionary()
+        {
+            return Provider.GetDictionary();
+        }
     }
 }

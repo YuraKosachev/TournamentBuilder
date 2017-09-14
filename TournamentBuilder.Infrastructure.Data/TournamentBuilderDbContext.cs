@@ -1,5 +1,6 @@
 ﻿using TournamentBuilder.Domain.Core;
 using System.Data.Entity;
+using System.Collections.Generic;
 
 namespace TournamentBuilder.Infrastructure.Data
 {
@@ -20,7 +21,15 @@ namespace TournamentBuilder.Infrastructure.Data
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            //base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Team>()
+            .HasMany(t => t.Players)
+            .WithOptional(p => p.Team)
+            .HasForeignKey(k=>k.TeamId)
+            .WillCascadeOnDelete(false);
+                
+            
         }
         public static TournamentBuilderDbContext Instance()
         {

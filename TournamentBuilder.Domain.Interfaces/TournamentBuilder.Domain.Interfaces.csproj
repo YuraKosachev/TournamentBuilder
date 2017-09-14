@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILookup.cs" />
     <Compile Include="IPlayerProvider.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="ITeamProvider.cs" />

@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TournamentBuilder.Domain.Core;
+using TournamentBuilder.Domain.Interfaces;
 
 namespace TournamentBuilder.Services.Interfaces
 {
-    public interface IPlayerService:IService<Player>
+    public interface IPlayerService:IService<Player>,ILookup
     {
     }
 }

@@ -52,6 +52,14 @@
     <Compile Include="Migrations\201709130752555_initial.Designer.cs">
       <DependentUpon>201709130752555_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709141345553_deleted_cascade_delete.cs" />
+    <Compile Include="Migrations\201709141345553_deleted_cascade_delete.Designer.cs">
+      <DependentUpon>201709141345553_deleted_cascade_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709141409409_new_migrationdd.cs" />
+    <Compile Include="Migrations\201709141409409_new_migrationdd.Designer.cs">
+      <DependentUpon>201709141409409_new_migrationdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Providers\PlayerProvider.cs" />
     <Compile Include="Providers\TeamProvider.cs" />
@@ -85,6 +93,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201709130752555_initial.resx">
       <DependentUpon>201709130752555_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709141345553_deleted_cascade_delete.resx">
+      <DependentUpon>201709141345553_deleted_cascade_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709141409409_new_migrationdd.resx">
+      <DependentUpon>201709141409409_new_migrationdd.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

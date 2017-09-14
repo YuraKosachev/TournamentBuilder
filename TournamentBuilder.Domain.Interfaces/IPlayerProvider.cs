@@ -7,7 +7,7 @@ using TournamentBuilder.Domain.Core;
 
 namespace TournamentBuilder.Domain.Interfaces
 {
-    public interface IPlayerProvider:IRepository<Player>
+    public interface IPlayerProvider:IRepository<Player>,ILookup
     {
     }
 }

@@ -20,13 +20,14 @@ namespace TournamentBuilder.Controllers
         public PlayerMapperProfile()
         {
             CreateMap<AppQuery<Player>, ListViewModel<Player>>()
-                .ForMember(item => item.List, exp => exp.MapFrom(src => src.ToList()))
+                .ForMember(item => item.List, exp => exp.MapFrom(src => src.Select(i=>Mapper.Map<PlayerViewModel>(i))))
                 .AfterMap((src, dest) =>
                 {
                     dest.CountItem = src.CountItem();
                 });
-
-            CreateMap<PlayerViewModel, Player>();
+            //CreateMap<IDictionary<Guid,string>,IEnumerable<object>>()
+            //    .ForMember()
+            CreateMap<PlayerViewModel, Player>().ReverseMap();
         }
     }
 
@@ -72,28 +73,51 @@ namespace TournamentBuilder.Controllers
             });
           
         }
+        //update
+        [HttpPut]
+        [Route("api/player")]
+        public IHttpActionResult Put(PlayerViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            return BaseActionResult(()=> {
+                return Ok(Factory.PlayerService.Update(Mapper.Map<Player>(model)));
+            });
+        }
 
         [HttpGet]
         [Route("api/players/{property}/{asc:bool}/{current:int}/{size:int}")]
-        public IHttpActionResult Get(FilterViewModel model)//string property, bool asc, int current, int size)
+        public IHttpActionResult Get(string property,bool asc,int current,int size)//string property, bool asc, int current, int size)
         {
 
             return BaseActionResult(() =>
             {
                 var list = Factory.PlayerService.OptionsList();
-                if (model != null)
-                {
-                    //list.Filter(item => item.);
-                    //list.Sort(property, asc).TakePage(current, size);
-                    //list.ToList();
-                }
-                list.Sort("NickName", false).TakePage(1, 1);
+                property = string.IsNullOrEmpty(property) ? "NickName" : property;
+                //if (model != null)
+                //{
+                //    //list.Filter(item => item.);
+                //    //list.Sort(property, asc).TakePage(current, size);
+                //    //list.ToList();
+                //}
+                list.Sort(property, false).TakePage(current, size);
                 return Ok(Mapper.Map<ListViewModel<Player>>(list));
             });
            
         }
 
+        [HttpGet]
+        [Route("api/players/lookup")]
+        public IHttpActionResult LookUp()
+        {
+            return BaseActionResult(()=> {
 
+                return Ok(Factory.PlayerService.GetDictionary().Select(item=>new { Id = item.Key,Name = item.Value }));
+            });
+
+        }
 
         // GET: api/players
         [HttpGet]
@@ -103,7 +127,6 @@ namespace TournamentBuilder.Controllers
             return BaseActionResult(() =>
             {
                 var list = Factory.PlayerService.OptionsList();
-                list.Sort("NickName", false).TakePage(1, 1);
                 return Ok(Mapper.Map<ListViewModel<Player>>(list));
             });
 

@@ -28,3 +28,6 @@ E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.In
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Interfaces\obj\Debug\TournamentBuilder.Domain.Interfaces.csprojResolveAssemblyReference.cache
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Interfaces\obj\Debug\TournamentBuilder.Domain.Interfaces.dll
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Interfaces\obj\Debug\TournamentBuilder.Domain.Interfaces.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Interfaces\bin\Debug\TournamentBuilder.Domain.Core.dll.config
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Interfaces\bin\Debug\TournamentBuilder.Domain.Extensions.dll.config
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Domain.Interfaces\obj\Debug\TournamentBuilder.Domain.Interfaces.csproj.CoreCompileInputs.cache

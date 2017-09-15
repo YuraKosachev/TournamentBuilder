@@ -60,6 +60,18 @@
     <Compile Include="Migrations\201709141409409_new_migrationdd.Designer.cs">
       <DependentUpon>201709141409409_new_migrationdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709150847466_change_unique.cs" />
+    <Compile Include="Migrations\201709150847466_change_unique.Designer.cs">
+      <DependentUpon>201709150847466_change_unique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709150902591_set_cascade_deleting.cs" />
+    <Compile Include="Migrations\201709150902591_set_cascade_deleting.Designer.cs">
+      <DependentUpon>201709150902591_set_cascade_deleting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709150937480_del_cascade_deleting.cs" />
+    <Compile Include="Migrations\201709150937480_del_cascade_deleting.Designer.cs">
+      <DependentUpon>201709150937480_del_cascade_deleting.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Providers\PlayerProvider.cs" />
     <Compile Include="Providers\TeamProvider.cs" />
@@ -99,6 +111,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709141409409_new_migrationdd.resx">
       <DependentUpon>201709141409409_new_migrationdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709150847466_change_unique.resx">
+      <DependentUpon>201709150847466_change_unique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709150902591_set_cascade_deleting.resx">
+      <DependentUpon>201709150902591_set_cascade_deleting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709150937480_del_cascade_deleting.resx">
+      <DependentUpon>201709150937480_del_cascade_deleting.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

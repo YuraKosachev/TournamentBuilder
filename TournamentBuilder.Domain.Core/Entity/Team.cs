@@ -15,7 +15,8 @@ namespace TournamentBuilder.Domain.Core
     {
         [Key]
         public Guid Id { get; set; }
-        public Guid? ImageId { get; set; }
+        public Nullable<Guid> ImageId { get; set; }
+        [Required]
         public string Name { get; set; }
         public string Description { get; set; }
 

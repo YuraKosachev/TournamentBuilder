@@ -12,10 +12,13 @@ namespace TournamentBuilder.Domain.Core
     {
         [Key]
         public Guid Id { get; set; }
-        public Guid? ImageId { get; set; }
+        public Nullable<Guid> ImageId { get; set; }
         [ForeignKey("Team")]
-        public Guid? TeamId { get; set; }
+        public Nullable<Guid> TeamId { get; set; }
+        [Required]
         public string NickName { get; set; }
+        [Required]
+        //[Index(IsUnique = true)]
         public string Email { get; set; }
 
         //navi settings

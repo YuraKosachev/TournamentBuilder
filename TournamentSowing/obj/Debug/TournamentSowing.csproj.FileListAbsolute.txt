@@ -1,0 +1,7 @@
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentSowing\bin\Debug\TournamentSowing.exe.config
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentSowing\bin\Debug\TournamentSowing.exe
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentSowing\bin\Debug\TournamentSowing.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentSowing\obj\Debug\TournamentSowing.csproj.CoreCompileInputs.cache
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentSowing\obj\Debug\TournamentSowing.exe
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentSowing\obj\Debug\TournamentSowing.pdb
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentSowing\obj\Debug\TournamentSowing.csprojResolveAssemblyReference.cache

@@ -45,6 +45,7 @@
     <Compile Include="IService.cs" />
     <Compile Include="IServiceFactory.cs" />
     <Compile Include="ITeamService.cs" />
+    <Compile Include="ITournamentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

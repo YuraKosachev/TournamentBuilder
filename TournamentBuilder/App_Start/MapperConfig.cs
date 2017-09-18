@@ -15,8 +15,8 @@ namespace TournamentBuilder
                 cfg =>
                 {
                   cfg.AddProfile<PlayerMapperProfile>();
-                    cfg.AddProfile<TeamMapperProfile>();
-
+                  cfg.AddProfile<TeamMapperProfile>();
+                  cfg.AddProfile<TournamentControllerProfile>();
                 }
             );
         }

@@ -9,20 +9,10 @@ namespace TournamentBuilder.Infrastructure.Business
 {
     public class ServiceFactory : IServiceFactory
     {
-        public IPlayerService PlayerService
-        {
-            get
-            {
-                return new PlayerService();
-            }
-        }
-
-        public ITeamService TeamService
-        {
-            get
-            {
-                return new TeamService();
-            }
-        }
+        public IPlayerService PlayerService=> new PlayerService();
+      
+        public ITeamService TeamService => new TeamService();
+    
+        public ITournamentService TournamentService => new TournamentService();
     }
 }

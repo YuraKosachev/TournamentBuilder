@@ -72,6 +72,18 @@
     <Compile Include="Migrations\201709150937480_del_cascade_deleting.Designer.cs">
       <DependentUpon>201709150937480_del_cascade_deleting.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709181153508_added_new_tables_and_rel_beetwen.cs" />
+    <Compile Include="Migrations\201709181153508_added_new_tables_and_rel_beetwen.Designer.cs">
+      <DependentUpon>201709181153508_added_new_tables_and_rel_beetwen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709181156568_added_new_table_TournamentSettings.cs" />
+    <Compile Include="Migrations\201709181156568_added_new_table_TournamentSettings.Designer.cs">
+      <DependentUpon>201709181156568_added_new_table_TournamentSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709181159355_new_table_TournamentGameResult.cs" />
+    <Compile Include="Migrations\201709181159355_new_table_TournamentGameResult.Designer.cs">
+      <DependentUpon>201709181159355_new_table_TournamentGameResult.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Providers\PlayerProvider.cs" />
     <Compile Include="Providers\TeamProvider.cs" />
@@ -120,6 +132,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709150937480_del_cascade_deleting.resx">
       <DependentUpon>201709150937480_del_cascade_deleting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709181153508_added_new_tables_and_rel_beetwen.resx">
+      <DependentUpon>201709181153508_added_new_tables_and_rel_beetwen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709181156568_added_new_table_TournamentSettings.resx">
+      <DependentUpon>201709181156568_added_new_table_TournamentSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709181159355_new_table_TournamentGameResult.resx">
+      <DependentUpon>201709181159355_new_table_TournamentGameResult.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

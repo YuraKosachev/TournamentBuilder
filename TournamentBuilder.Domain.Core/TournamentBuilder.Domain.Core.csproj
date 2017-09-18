@@ -51,6 +51,7 @@
     <Compile Include="Entity\Discipline.cs" />
     <Compile Include="Entity\Player.cs" />
     <Compile Include="Entity\Team.cs" />
+    <Compile Include="Entity\TournamentGameResults.cs" />
     <Compile Include="Entity\TournamentSettings.cs" />
     <Compile Include="Entity\TournamentSystem.cs" />
     <Compile Include="IModel.cs" />

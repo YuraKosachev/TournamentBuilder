@@ -14,15 +14,20 @@ namespace TournamentBuilder.Domain.Core
         public Guid Id { get; set; }
         public Guid OwnId { get; set; }
         public Guid? ImageId { get; set; }
+        
         public Guid? TournamentSettingsId { get; set; }
         public Guid? CMSSettingsId { get; set; }
         public Guid? ResultsId { get; set; }
+        [Required]
         public string Name { get; set; }
         public string Description { get; set; }
-        public bool IsPublished { get; set; }
-        public bool IsPrivate { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
+        public string Tag { get; set; }
+
+
+
+        //navi setting
+        public virtual ICollection<TournamentGameResults> Result { get; set; }
+        public virtual TournamentSettings TournamentSetting { get; set; }
 
     }
 }

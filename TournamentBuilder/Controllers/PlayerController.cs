@@ -15,18 +15,17 @@ using TournamentBuilder.Domain.Extensions;
 
 namespace TournamentBuilder.Controllers
 {
-    public class PlayerMapperProfile : Profile
+    public class PlayerMapperProfile: Profile// : BaseMapperProfile<Player, PlayerViewModel>
     {
         public PlayerMapperProfile()
         {
             CreateMap<AppQuery<Player>, ListViewModel<Player>>()
-                .ForMember(item => item.List, exp => exp.MapFrom(src => src.Select(i=>Mapper.Map<PlayerViewModel>(i))))
+                .ForMember(item => item.List, exp => exp.MapFrom(src => src.Select(i => Mapper.Map<PlayerViewModel>(i))))
                 .AfterMap((src, dest) =>
                 {
                     dest.CountItem = src.CountItem();
                 });
-            //CreateMap<IDictionary<Guid,string>,IEnumerable<object>>()
-            //    .ForMember()
+
             CreateMap<PlayerViewModel, Player>().ReverseMap();
         }
     }

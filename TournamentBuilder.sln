@@ -53,6 +53,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "Web\", "{810671E8-21
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentSowing", "TournamentSowing\TournamentSowing.csproj", "{285DC42F-A67D-41DF-9751-D367F990DBA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{810671E8-21AE-4F95-B080-F39AAF8C0434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{810671E8-21AE-4F95-B080-F39AAF8C0434}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{810671E8-21AE-4F95-B080-F39AAF8C0434}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{285DC42F-A67D-41DF-9751-D367F990DBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285DC42F-A67D-41DF-9751-D367F990DBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285DC42F-A67D-41DF-9751-D367F990DBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285DC42F-A67D-41DF-9751-D367F990DBA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{98CFA3DC-0FF9-4468-9D80-2D4B0DC71C8D} = {D58BA74D-BDDD-4D38-A87E-F41DC6777BAD}
 		{914D7090-8C7E-4C3C-B4AF-C66AEF2B6D89} = {75A59450-AA22-40CD-87A5-C8CE933AA36A}
 		{8531295D-C437-43A2-B7F6-DD08A3D1704B} = {914D7090-8C7E-4C3C-B4AF-C66AEF2B6D89}
+		{285DC42F-A67D-41DF-9751-D367F990DBA7} = {914D7090-8C7E-4C3C-B4AF-C66AEF2B6D89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BB62DD6-FCB4-4575-B1B2-435EA0F6BE16}

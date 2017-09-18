@@ -13,8 +13,9 @@ namespace TournamentBuilder.Infrastructure.Data
         public DbSet<Team> Teams { get; set; }
         public DbSet<Player> Players { get; set; }
 
-        //public DbSet<Tournament> Tournaments { get; set; }
-        //public DbSet<TournamentSettings> TournamentSettings { get; set; }
+        public DbSet<Tournament> Tournaments { get; set; }
+        public DbSet<TournamentSettings> TournamentSettings { get; set; }
+        public DbSet<TournamentGameResults> GameResults { get; set; }
 
 
 

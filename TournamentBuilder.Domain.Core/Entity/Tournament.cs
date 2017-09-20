@@ -15,7 +15,6 @@ namespace TournamentBuilder.Domain.Core
         public Guid OwnId { get; set; }
         public Guid? ImageId { get; set; }
         
-        public Guid? TournamentSettingsId { get; set; }
         public Guid? CMSSettingsId { get; set; }
         public Guid? ResultsId { get; set; }
         [Required]
@@ -26,8 +25,12 @@ namespace TournamentBuilder.Domain.Core
 
 
         //navi setting
+        public virtual ICollection<Player> Players { get; set; }
+        public virtual ICollection<Team> Teams { get; set; }
         public virtual ICollection<TournamentGameResults> Result { get; set; }
         public virtual TournamentSettings TournamentSetting { get; set; }
 
+
+        
     }
 }

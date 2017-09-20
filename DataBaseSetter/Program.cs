@@ -13,10 +13,17 @@ namespace DataBaseSetter
     {
         static void Main(string[] args)
         {
+            var tprovider = new TournamentProvider();
             //var teamPr = new TeamProvider();
             //var playerPr = new PlayerProvider();
 
-            //var random = new Random();
+            var random = new Random();
+            for (int i = 0; i < 1000000; i++)
+            {
+                Console.WriteLine($"Вставка {i} по счету турнира");
+               // tprovider.Set();
+                tprovider.Save();
+            }
             //for (int i = 0; i < 1000000; i++)
             //{
             //    Console.WriteLine($"Вставка {i} по счету комманды");

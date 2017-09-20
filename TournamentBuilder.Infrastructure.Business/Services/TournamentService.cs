@@ -12,5 +12,13 @@ namespace TournamentBuilder.Infrastructure.Business
     public class TournamentService: TournamentBuilderService<Tournament, TournamentProvider>,ITournamentService
     {
         public TournamentService() : base(){ }
+
+        public IParticipant SetParticipant(Tournament tournament, IParticipant model, bool isTeam)
+        {
+            var item = Provider.SetParticipant(tournament,model, isTeam);
+            Provider.Save();
+
+            return item;
+        }
     }
 }

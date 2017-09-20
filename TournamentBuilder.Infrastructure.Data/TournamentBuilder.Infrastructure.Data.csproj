@@ -84,11 +84,24 @@
     <Compile Include="Migrations\201709181159355_new_table_TournamentGameResult.Designer.cs">
       <DependentUpon>201709181159355_new_table_TournamentGameResult.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709191147216_added_new_rel.cs" />
+    <Compile Include="Migrations\201709191147216_added_new_rel.Designer.cs">
+      <DependentUpon>201709191147216_added_new_rel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709191207117_changed_property_name.cs" />
+    <Compile Include="Migrations\201709191207117_changed_property_name.Designer.cs">
+      <DependentUpon>201709191207117_changed_property_name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709201331089_added_new_rel1.cs" />
+    <Compile Include="Migrations\201709201331089_added_new_rel1.Designer.cs">
+      <DependentUpon>201709201331089_added_new_rel1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Providers\PlayerProvider.cs" />
     <Compile Include="Providers\TeamProvider.cs" />
     <Compile Include="Providers\TournamentBuilderProvider.cs" />
     <Compile Include="Providers\TournamentProvider.cs" />
+    <Compile Include="Providers\TournamentSettingsProvider.cs" />
     <Compile Include="TournamentBuilderDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -141,6 +154,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709181159355_new_table_TournamentGameResult.resx">
       <DependentUpon>201709181159355_new_table_TournamentGameResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709191147216_added_new_rel.resx">
+      <DependentUpon>201709191147216_added_new_rel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709191207117_changed_property_name.resx">
+      <DependentUpon>201709191207117_changed_property_name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709201331089_added_new_rel1.resx">
+      <DependentUpon>201709201331089_added_new_rel1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

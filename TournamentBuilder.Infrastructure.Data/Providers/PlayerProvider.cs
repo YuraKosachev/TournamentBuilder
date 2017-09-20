@@ -14,7 +14,7 @@ namespace TournamentBuilder.Infrastructure.Data.Providers
 
         public IDictionary<Guid, string> GetDictionary()
         {
-            return Context.Set<Player>().ToDictionary<Player, Guid, string>(key => key.Id, value => value.NickName);
+            return Context.Set<Player>().ToDictionary<Player, Guid, string>(key => key.Id, value => value.Name);
         }
     }
 }

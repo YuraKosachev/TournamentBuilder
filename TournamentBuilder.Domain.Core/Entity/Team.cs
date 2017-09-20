@@ -11,8 +11,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TournamentBuilder.Domain.Core
 {
-    public class Team:IModel
+    public class Team:IModel,IParticipant
     {
+
         [Key]
         public Guid Id { get; set; }
         public Guid? ImageId { get; set; }
@@ -21,6 +22,9 @@ namespace TournamentBuilder.Domain.Core
         public string Description { get; set; }
 
         //navi settings
+        public virtual ICollection<Tournament> Tournaments { get; set; }
         public virtual ICollection<Player> Players { get; set; }
+
+       
     }
 }

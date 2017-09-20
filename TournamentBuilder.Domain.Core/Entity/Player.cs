@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TournamentBuilder.Domain.Core
 {
-    public class Player:IModel
+    public class Player:IModel,IParticipant
     {
         [Key]
         public Guid Id { get; set; }
@@ -16,12 +16,14 @@ namespace TournamentBuilder.Domain.Core
         [ForeignKey("Team")]
         public Guid? TeamId { get; set; }
         [Required]
-        public string NickName { get; set; }
+        public string Name { get; set; }
         [Required]
         //[Index(IsUnique = true)]
         public string Email { get; set; }
 
         //navi settings
+        public virtual ICollection<Tournament> Tournaments { get; set; }
         public virtual Team Team { get; set; }
+        
     }
 }

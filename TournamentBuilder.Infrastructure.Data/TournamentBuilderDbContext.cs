@@ -6,6 +6,7 @@ namespace TournamentBuilder.Infrastructure.Data
 {
     public class TournamentBuilderDbContext:DbContext
     {
+        
         public TournamentBuilderDbContext() : base("TournamentBuilderConnection")
         { }
 
@@ -36,7 +37,7 @@ namespace TournamentBuilder.Infrastructure.Data
         }
         public static TournamentBuilderDbContext Instance()
         {
-            return new TournamentBuilderDbContext();
+              return new TournamentBuilderDbContext();
         }
     }
 }

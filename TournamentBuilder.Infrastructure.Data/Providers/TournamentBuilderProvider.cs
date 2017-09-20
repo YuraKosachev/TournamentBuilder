@@ -24,7 +24,7 @@ namespace TournamentBuilder.Infrastructure.Data.Providers
 
         public virtual IAppQuery<TEntity> OptionsList()
         {
-            return new AppQuery<TEntity>(Context.Set<TEntity>());
+            return new AppQuery<TEntity>(Context.Set<TEntity>().AsNoTracking());
         }
 
         public virtual TEntity Item(TEntity model)

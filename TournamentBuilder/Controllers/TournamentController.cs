@@ -19,13 +19,22 @@ namespace TournamentBuilder.Controllers
     {
         public TournamentControllerProfile()
         {
-            CreateMap<AppQuery<Tournament>, ListViewModel<TournamentViewModel>>()
-             .ForMember(item => item.List, exp => exp.MapFrom(src => src.Select(i => Mapper.Map<TournamentViewModel>(i))))
+            CreateMap<AppQuery<Tournament>, ListViewModel<ShortTournamentViewModel>>()
+             .ForMember(item => item.List, exp => exp.MapFrom(src => src.Select(i => Mapper.Map<ShortTournamentViewModel>(i))))
                 .AfterMap((src, dest) =>
                 {
                     dest.CountItem = src.CountItem();
                 });
-            CreateMap<TournamentViewModel, Tournament>().ReverseMap();
+            CreateMap<Tournament, ShortTournamentViewModel>();
+              
+                
+            CreateMap<TournamentViewModel, Tournament>()
+                .ReverseMap()
+                .ForMember(item => item.Players, exp => exp.MapFrom(src => src.Players.Select(i => Mapper.Map<PlayerViewModel>(i))))
+                //.ForMember(item=>item.Teams,exp=>exp.Ignore())
+                .ForMember(item=>item.Teams,exp=>exp.MapFrom(src=>src.Teams.Select(i=>Mapper.Map<TeamViewModel>(i))))
+                .ForMember(item => item.TournamentSetting, exp => exp.MapFrom(src => Mapper.Map<TournamentSettingsViewModel>(src.TournamentSetting)));
+                
         }
        
     }
@@ -41,7 +50,7 @@ namespace TournamentBuilder.Controllers
         {
             return BaseActionResult(()=> {
                 var list = Factory.TournamentService.OptionsList();
-                return Ok(Mapper.Map<ListViewModel<TournamentViewModel>>(list));
+                return Ok(Mapper.Map<ListViewModel<ShortTournamentViewModel>>(list));
             });
 
         }
@@ -51,7 +60,8 @@ namespace TournamentBuilder.Controllers
         public IHttpActionResult Get(Guid id)
         {
             return BaseActionResult(()=> {
-                return Ok(Factory.TournamentService.Item(new Tournament { Id = id }));
+                var item = Factory.TournamentService.Item(new Tournament { Id = id });
+                return Ok(Mapper.Map<TournamentViewModel>(item));
             });
 
         }
@@ -91,7 +101,33 @@ namespace TournamentBuilder.Controllers
                 return Ok(Factory.TournamentService.Update(Mapper.Map<Tournament>(model)));
             });
         }
+        [HttpPost]
+        [Route("api/tournament/teamparticipant")]
+        public IHttpActionResult TeamParticipant(Guid id,TeamViewModel model)
+        {
+            return BaseActionResult(()=> {
+                SetParticipant(id, Mapper.Map<Team>(model));
+                return Ok();
+            });
+        }
+
+        [HttpPost]
+        [Route("api/tournament/playerparticipant")]
+        public IHttpActionResult PlayerParticipant(Guid id, PlayerViewModel model)
+        {
+            return BaseActionResult(() => {
+
+                return Ok(SetParticipant(id, Mapper.Map<Player>(model)));
+            });
+        }
+
+        private IParticipant SetParticipant(Guid id, IParticipant model)
+ 
+        { 
+            return Factory.TournamentService.SetParticipant(new Tournament { Id = id }, model , model is Team);
+        }
+
         //implements filtring 
-        
+
     }
 }

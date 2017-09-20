@@ -9,5 +9,6 @@ namespace TournamentBuilder.Domain.Interfaces
 {
     public interface ITournamentProvider:IRepository<Tournament>
     {
+        IParticipant SetParticipant(Tournament tournament, IParticipant model, bool isTeam);
     }
 }

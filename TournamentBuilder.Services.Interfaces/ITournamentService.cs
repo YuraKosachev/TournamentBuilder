@@ -9,5 +9,6 @@ namespace TournamentBuilder.Services.Interfaces
 {
     public interface ITournamentService:IService<Tournament>
     {
+        IParticipant SetParticipant(Tournament tournament, IParticipant model, bool isTeam);
     }
 }

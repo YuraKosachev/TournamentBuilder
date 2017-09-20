@@ -55,6 +55,7 @@
     <Compile Include="Entity\TournamentSettings.cs" />
     <Compile Include="Entity\TournamentSystem.cs" />
     <Compile Include="IModel.cs" />
+    <Compile Include="IParticipant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entity\Tournament.cs" />
   </ItemGroup>

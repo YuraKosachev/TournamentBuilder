@@ -38,10 +38,6 @@ E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastru
 E:\УЧЕБА\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.pdb
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.initial.resources
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.csproj.GenerateResource.Cache
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\TournamentBuilder.Domain.Core.dll.config
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\TournamentBuilder.Domain.Extensions.dll.config
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\bin\Debug\TournamentBuilder.Domain.Interfaces.dll.config
-C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.csproj.CoreCompileInputs.cache
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.deleted_cascade_delete.resources
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.new_migrationdd.resources
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.change_unique.resources
@@ -50,3 +46,6 @@ C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\Tournam
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.added_new_tables_and_rel_beetwen.resources
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.added_new_table_TournamentSettings.resources
 C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.new_table_TournamentGameResult.resources
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.added_new_rel.resources
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.changed_property_name.resources
+C:\Users\yuko\Documents\Visual Studio 2015\Projects\GitTournamentBuilder\TournamentBuilder\TournamentBuilder.Infrastructure.Data\obj\Debug\TournamentBuilder.Infrastructure.Data.Migrations.added_new_rel1.resources

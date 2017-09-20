@@ -11,5 +11,6 @@ namespace TournamentBuilder.Services.Interfaces
         ITeamService TeamService { get; }
         IPlayerService PlayerService { get; }
         ITournamentService TournamentService { get; }
+        ITournamentSettingsService TournamentSettingsService { get; }
     }
 }

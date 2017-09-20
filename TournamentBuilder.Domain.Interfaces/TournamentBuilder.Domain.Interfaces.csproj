@@ -53,6 +53,7 @@
     <Compile Include="IRepository.cs" />
     <Compile Include="ITeamProvider.cs" />
     <Compile Include="ITournamentProvider.cs" />
+    <Compile Include="ITournamentSettingsProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -14,5 +14,7 @@ namespace TournamentBuilder.Infrastructure.Business
         public ITeamService TeamService => new TeamService();
     
         public ITournamentService TournamentService => new TournamentService();
+
+        public ITournamentSettingsService TournamentSettingsService => new TournamentSettingsService();
     }
 }

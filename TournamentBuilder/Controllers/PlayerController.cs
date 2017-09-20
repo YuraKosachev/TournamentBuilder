@@ -15,7 +15,7 @@ using TournamentBuilder.Domain.Extensions;
 
 namespace TournamentBuilder.Controllers
 {
-    public class PlayerMapperProfile: Profile// : BaseMapperProfile<Player, PlayerViewModel>
+    public class PlayerMapperProfile: Profile
     {
         public PlayerMapperProfile()
         {
@@ -57,7 +57,8 @@ namespace TournamentBuilder.Controllers
         {
             return  BaseActionResult(() =>
             {
-               return Ok(Factory.PlayerService.Item(new Player { Id = id }));
+                var item = Factory.PlayerService.Item(new Player { Id = id });
+               return Ok(Mapper.Map<PlayerViewModel>(item));
             });
          
         }
@@ -94,7 +95,7 @@ namespace TournamentBuilder.Controllers
             return BaseActionResult(() =>
             {
                 var list = Factory.PlayerService.OptionsList();
-                property = string.IsNullOrEmpty(property) ? "NickName" : property;
+                property = string.IsNullOrEmpty(property) ? "Name" : property;
                 //if (model != null)
                 //{
                 //    //list.Filter(item => item.);

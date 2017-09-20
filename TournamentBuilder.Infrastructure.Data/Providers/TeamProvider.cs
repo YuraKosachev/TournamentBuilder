@@ -16,7 +16,7 @@ namespace TournamentBuilder.Infrastructure.Data.Providers
         public TeamProvider() : base() { }
         public override IAppQuery<Team> OptionsList()
         {
-            return new AppQuery<Team>(Context.Set<Team>().Include("Players"));
+            return new AppQuery<Team>(Context.Set<Team>().Include("Players").AsNoTracking());
         }
         public override Team Delete(Team model)
         {

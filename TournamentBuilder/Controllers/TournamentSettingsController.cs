@@ -19,12 +19,12 @@ namespace TournamentBuilder.Controllers
     {
         public TournamentSettingsControllerProfile()
         {
-            CreateMap<AppQuery<TournamentSettings>, ListViewModel<TournamentSettingsViewModel>>()
-            .ForMember(item => item.List, exp => exp.MapFrom(src => src.Select(i => Mapper.Map<TournamentSettingsViewModel>(i))))
-               .AfterMap((src, dest) =>
-               {
-                   dest.CountItem = src.CountItem();
-               });
+            //CreateMap<AppQuery<TournamentSettings>, ListViewModel<TournamentSettingsViewModel>>()
+            //.ForMember(item => item.List, exp => exp.MapFrom(src => src.Select(i => Mapper.Map<TournamentSettingsViewModel>(i))))
+            //   .AfterMap((src, dest) =>
+            //   {
+            //       dest.CountItem = src.CountItem();
+            //   });
             CreateMap<TournamentSettingsViewModel, TournamentSettings>().ReverseMap();
         }
     }
@@ -34,25 +34,40 @@ namespace TournamentBuilder.Controllers
         public TournamentSettingsController() : base() { }
 
         [HttpGet]
-        [Route("api/tournament/settings/{id}")]
+        [Route("api/settings/tournament/{id}")]
         public IHttpActionResult Get(Guid id)
         {
             return BaseActionResult(()=> {
-
-                return Ok();
+                var item = Factory.TournamentSettingsService.Item(new TournamentSettings { Id = id });
+                return Ok(Mapper.Map<TournamentSettingsViewModel>(item));
+               
             });
         }
         [HttpPost]
-        [Route("api/tournament/settings")]
+        [Route("api/settings/tournament")]
         public IHttpActionResult Post(TournamentSettingsViewModel model)
         {
-            throw new NotImplementedException();
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            return BaseActionResult(()=> {
+                var item = Factory.TournamentSettingsService.Set(Mapper.Map<TournamentSettings>(model));
+                return Ok(item);
+            });
         }
         [HttpPut]
-        [Route("api/tournament/settings")]
+        [Route("api/settings/tournament")]
         public IHttpActionResult Put(TournamentSettingsViewModel model)
         {
-            throw new NotImplementedException();
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            return BaseActionResult(() => {
+                var item = Factory.TournamentSettingsService.Set(Mapper.Map<TournamentSettings>(model));
+                return Ok(item);
+            }); ;
         }
      
 
